@@ -174,7 +174,6 @@
       <root url="file://$PROJECT_DIR$/../../../Flutter/IDE/flutter/packages/flutter/lib" />
       <root url="file://$PROJECT_DIR$/../../../Flutter/IDE/flutter/packages/flutter_test/lib" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES />
   </library>
 </component>
