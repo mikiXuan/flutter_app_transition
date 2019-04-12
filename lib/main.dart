@@ -3,7 +3,6 @@ import './config/routers/application.dart';
 import './config/routers/routers.dart';
 import 'package:fluro/fluro.dart';
 import 'package:flutter/services.dart';
-import './business/home.dart';
 
 void main() => runApp(TransitionApp());
 

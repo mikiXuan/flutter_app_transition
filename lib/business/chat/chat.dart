@@ -29,7 +29,8 @@ class _ChatPageState extends State<ChatPage>
             ),
             onPressed: () {
               print('click FlatButton');
-              Application.router.navigateTo(context, '/chatSubView');
+              Application.router.navigateTo(context, '/ChatSubPage');
+//              Application.router.navigateTo(context, '/login_Page');
             },
             color: Theme.of(context).primaryColor,
           )
