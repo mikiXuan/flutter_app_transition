@@ -28,6 +28,8 @@ class _ChatPageState extends State<ChatPage>
             ),
             onPressed: () {
               print('click FlatButton');
+              Navigator.of(context)
+                  .pushNamed('login_page', arguments: null);
             },
             color: Theme.of(context).primaryColor,
           )
