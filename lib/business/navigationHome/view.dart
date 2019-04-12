@@ -1,8 +1,15 @@
+import 'package:fish_redux/fish_redux.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_transition_program/business/chat/chat.dart';
 import 'package:flutter_transition_program/business/assignment/assignment.dart';
 import 'package:flutter_transition_program/business/camera/camera.dart';
 import 'package:flutter_transition_program/business/account/account.dart';
+import 'action.dart';
+import 'state.dart';
+
+Widget buildView(NavigationHomeState state, Dispatch dispatch, ViewService viewService) {
+  return AppHomeTabBarPage();
+}
 
 
 class AppHomeTabBarPage extends StatefulWidget

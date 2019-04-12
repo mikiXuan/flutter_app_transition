@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_transition_program/config/routers/application.dart';
 
 class ChatPage extends StatefulWidget
 {
@@ -29,8 +28,6 @@ class _ChatPageState extends State<ChatPage>
             ),
             onPressed: () {
               print('click FlatButton');
-              Application.router.navigateTo(context, '/ChatSubPage');
-//              Application.router.navigateTo(context, '/login_Page');
             },
             color: Theme.of(context).primaryColor,
           )
