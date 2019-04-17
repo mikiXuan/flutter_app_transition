@@ -15,7 +15,8 @@ class loginState implements Cloneable<loginState> {
 }
 
 loginState initState(Map<String, dynamic> args) {
-  final loginState state = loginState();
-  state.cityName = '请选择区域';
-  return state;
+//  final loginState state = loginState();
+//  state.cityName = '请选择区域';
+//  return state;
+  return loginState();
 }

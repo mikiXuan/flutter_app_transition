@@ -18,7 +18,7 @@ class _TranssitionAppState extends State<TransitionApp>
 {
   final AbstractRoutes routes = HybridRoutes(routes: <AbstractRoutes>[
     PageRoutes(
-      pages: RouteList().ReduxRoutes,
+      pages: RouteList().reduxRoutes,
     ),
   ]);
 

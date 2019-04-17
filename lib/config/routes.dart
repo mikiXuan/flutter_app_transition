@@ -5,7 +5,7 @@ import '../business/navigationHome/page.dart';
 
 class RouteList
 {
-    Map ReduxRoutes = <String, Page<Object, dynamic>>{
+    Map reduxRoutes = <String, Page<Object, dynamic>>{
       'navigation_home': NavigationHomePage(),
       'todo_edit': city_selectedPage(),
       'login_page': loginPage(),
